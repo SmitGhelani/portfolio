@@ -6,10 +6,10 @@ const Card = () => {
       <div className="">
         <div className="h-fit w-screen m-2">
           <Image
-            src="Image_3854.jpg"
+            src="/profile.jpg"
             className=" m-auto rounded-full object-contain"
-            width="28"
-            height="28"
+            width="280"
+            height="280"
             alt="Profile-pic"
           />
         </div>
@@ -56,32 +56,32 @@ const Card = () => {
       <div className="">
         <div className="">Skills</div>
         <div className="flex">
-          <Image src="nodejs.svg" className="h-20 w-20" alt="" />
-          <Image src="aws.svg" className="h-20 w-20" alt="" />
-          <Image src="bash.svg" className="h-20 w-20" alt="" />
-          <Image src="ansible.svg" className="h-20 w-20" alt="" />
-          <Image src="css.svg" className="h-20 w-20" alt="" />
-          <Image src="docker.svg" className="h-20 w-20" alt="" />
-          <Image src="devops.svg" className="h-20 w-20" alt="" />
-          <Image src="express.svg" className="h-20 w-20" alt="" />
-          <Image src="gatsby.svg" className="h-20 w-20" alt="" />
-          <Image src="drupal.svg" className="h-20 w-20" alt="" />
-          <Image src="git.svg" className="h-20 w-20" alt="" />
-          <Image src="github.svg" className="h-20 w-20" alt="" />
-          <Image src="html.svg" className="h-20 w-20" alt="" />
-          <Image src="javascript.svg" className="h-20 w-20" alt="" />
-          <Image src="jenkins.svg" className="h-20 w-20" alt="" />
-          <Image src="linux.svg" className="h-20 w-20" alt="" />
-          <Image src="ML.svg" className="h-20 w-20" alt="" />
-          <Image src="mongo.svg" className="h-20 w-20" alt="" />
-          <Image src="mysql.svg" className="h-20 w-20" alt="" />
-          <Image src="next.svg" className="h-20 w-20" alt="" />
-          <Image src="php.svg" className="h-20 w-20" alt="" />
-          <Image src="python.svg" className="h-20 w-20" alt="" />
-          <Image src="react.svg" className="h-20 w-20" alt="" />
-          <Image src="tailwind.svg" className="h-20 w-20" alt="" />
-          <Image src="typescript.svg" className="h-20 w-20" alt="" />
-          <Image src="leetcode.svg" className="h-20 w-20" alt="" />
+          <Image src="nodejs.svg" className="h-20 w-20" width="20" height="20" alt="" />
+          <Image src="aws.svg" className="h-20 w-20" width="20" height="20" alt="" />
+          <Image src="bash.svg" className="h-20 w-20" width="20" height="20" alt="" />
+          <Image src="ansible.svg" className="h-20 w-20" width="20" height="20" alt="" />
+          <Image src="css.svg" className="h-20 w-20" width="20" height="20" alt="" />
+          <Image src="docker.svg" className="h-20 w-20" width="20" height="20" alt="" />
+          <Image src="devops.svg" className="h-20 w-20" width="20" height="20" alt="" />
+          <Image src="express.svg" className="h-20 w-20" width="20" height="20" alt="" />
+          <Image src="gatsby.svg" className="h-20 w-20" width="20" height="20" alt="" />
+          <Image src="drupal.svg" className="h-20 w-20" width="20" height="20" alt="" />
+          <Image src="git.svg" className="h-20 w-20" width="20" height="20" alt="" />
+          <Image src="github.svg" className="h-20 w-20" width="20" height="20" alt="" />
+          <Image src="html.svg" className="h-20 w-20" width="20" height="20" alt="" />
+          <Image src="javascript.svg" className="h-20 w-20" width="20" height="20" alt="" />
+          <Image src="jenkins.svg" className="h-20 w-20" width="20" height="20" alt="" />
+          <Image src="linux.svg" className="h-20 w-20" width="20" height="20" alt="" />
+          <Image src="ML.svg" className="h-20 w-20" width="20" height="20" alt="" />
+          <Image src="mongo.svg" className="h-20 w-20" width="20" height="20" alt="" />
+          <Image src="mysql.svg" className="h-20 w-20" width="20" height="20" alt="" />
+          <Image src="next.svg" className="h-20 w-20" width="20" height="20" alt="" />
+          <Image src="php.svg" className="h-20 w-20" width="20" height="20" alt="" />
+          <Image src="python.svg" className="h-20 w-20" width="20" height="20" alt="" />
+          <Image src="react.svg" className="h-20 w-20" width="20" height="20" alt="" />
+          <Image src="tailwind.svg" className="h-20 w-20" width="20" height="20" alt="" />
+          <Image src="typescript.svg" className="h-20 w-20" width="20" height="20" alt="" />
+          <Image src="leetcode.svg" className="h-20 w-20" width="20" height="20" alt="" />
         </div>
       </div>
     </div>
