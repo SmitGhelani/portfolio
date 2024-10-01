@@ -29,7 +29,7 @@ const Card = () => {
         <div>Contact Details</div>
         <div>
           <div>Contact No: +91-6355286783</div>
-          <div>Mail ID: ghelanismit4@gmail.com</div>
+          <div>E-Mail ID: ghelanismit4@gmail.com</div>
         </div>
       </div>
       <div>
