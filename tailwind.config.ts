@@ -23,6 +23,8 @@ const config: Config = {
           '0%': { backgroundPosition: '0% 50%' },
           '50%': { backgroundPosition: '100% 50%' },
           '100%': { backgroundPosition: '0% 50%' },
+          '150%': { backgroundPosition: '100% 50%' },
+          '200%': { backgroundPosition: '0% 50%' },
         },
       },
       backgroundSize: {
@@ -31,6 +33,15 @@ const config: Config = {
       animation: {
         gradient: 'animatedgradient 6s ease infinite alternate',
       },
+      fontSize: {
+        'sm': '0.8rem',
+        'base': '1rem',
+        'xl': '1.25rem',
+        '2xl': '1.563rem',
+        '3xl': '1.953rem',
+        '4xl': '2.441rem',
+        '5xl': '3.052rem',
+      }
     },
   },
   plugins: [],
