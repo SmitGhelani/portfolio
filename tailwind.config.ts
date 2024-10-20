@@ -16,7 +16,8 @@ const config: Config = {
       fontFamily: {
         "vibes": ['Great Vibes', 'cursive'],
         "poppins": ['Poppins', 'sans-serif'],
-        "cour": ['Courgette', 'sans-serif']
+        "cour": ['Courgette', 'sans-serif'],
+        "bebas": ['Bebas Neue', 'sans-serif']
       },
       keyframes: {
         animatedgradient: {

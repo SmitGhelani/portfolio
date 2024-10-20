@@ -11,12 +11,16 @@ const Project = () => {
               <div className="flex basis-1/4 w-fit justify-start"><img src="store.png" className="h-10 w-10 rounded-xl" width="20" height="20" alt="" /></div>
               <div className="flex basis-3/4">eCommerce Store</div>
             </div>
+            <div className="mt-10 justify-start text-left text-sm">NextJS based e-commerece store written with TypeScript.</div>
+            <div className="mt-10 font-bebas justify-start text-left text-sm italic">NextJS | TypeScript | MongoDB | Postman</div>
           </Link>
           <Link href="https://unionboard.smitghelani.xyz/" className="text-white p-5 font-poppins object-fill w-[18rem] h-[20rem] items-center justify-center text-center m-2 rounded-xl hover:cursor-pointer bg-[#19B79D]" style={{backgroundImage: "linear-gradient(155deg, rgba(255, 223, 186, 0.7), rgba(0, 139, 139, 0.3)), url('studentsearch.png');", backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}} >
             <div className="flex flex-row items-center justify-center text-center w-full">
               <div className="flex basis-1/4 w-fit justify-start items-center text-center"><img src="logoPayment.png" className="h-10 w-10 rounded-xl" width="20" height="20" alt="" /></div>
               <div className="flex basis-3/4 justify-start items-center text-center">UniOnBoard</div>
             </div>
+            <div className="mt-10 justify-start text-left text-sm">Node.js framework ExpressJS based University admission and EdTech platform for Gujarat Engineering Colleges with React based Frontend having RazorPay payment gateway integration.</div>
+            <div className="mt-10 font-bebas justify-start text-left text-sm italic">Node.js | ReactJS | JavaScript | MongoDB | ExpressJS</div>
           </Link>
         </div>
       <div className="p-2"></div>
