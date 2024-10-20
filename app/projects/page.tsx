@@ -30,7 +30,7 @@ const Project = () => {
         <h1 className="flex flex-row rounded-lg p-30 justify-center items-center text-center h-20 w-full bg-300% animate-gradient text-white font-cour text-2xl">My Projects</h1>      
       </div>
       <div className="flex flex-row p-2 m-2"> 
-        <div className="flex flex-row rounded-lg basis-3/4  p-30 justify-center items-center text-center h-[32rem] w-full bg-300% animate-gradient" >
+        <div className="flex flex-row rounded-lg basis-3/4  p-30 justify-center items-center text-center h-screen w-full bg-300% animate-gradient" >
             <Link href="https://ecommerce.smitghelani.xyz/" className="text-white p-5 font-poppins object-fill w-[18rem] h-[20rem] items-center justify-center text-center m-2 rounded-xl hover:cursor-pointer" style={cardImgoneStyle} >
               <div className="flex flex-row items-center justify-center text-center w-full">
                 <div className="flex basis-1/4 w-fit justify-start"><img src="store.png" className="h-10 w-10 rounded-xl" width="20" height="20" alt="" /></div>
