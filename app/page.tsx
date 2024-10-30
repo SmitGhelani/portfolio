@@ -16,7 +16,7 @@ export default function Home() {
     });
   }, []);
   return ( 
-    <div className="flex flex-row p-2" style={bgImage}>
+    <div className="flex flex-row" style={bgImage}>
       <Main />
       <div className="p-2"></div>
       <SidePanel />

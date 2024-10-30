@@ -26,10 +26,10 @@ const Project = () => {
 
   return (
     <div style={bgImage}>
-      <div className="p-2">
-        <h1 className="flex flex-row rounded-lg p-30 justify-center items-center text-center h-20 w-full bg-300% animate-gradient text-white font-cour text-2xl">My Projects</h1>      
-      </div>
-      <div className="flex flex-row p-2 m-2"> 
+      <div className="flex flex-col h-screen"> 
+        <div className="p-2">
+          <h1 className="flex flex-row rounded-lg p-30 justify-center items-center text-center h-20 w-full bg-300% animate-gradient text-white font-cour text-2xl">My Projects</h1>      
+        </div>
         <div className="flex flex-row rounded-lg basis-3/4  p-30 justify-center items-center text-center h-screen w-full bg-300% animate-gradient" >
             <Link href="https://ecommerce.smitghelani.xyz/" className="text-white p-5 font-poppins object-fill w-[18rem] h-[20rem] items-center justify-center text-center m-2 rounded-xl hover:cursor-pointer" style={cardImgoneStyle} >
               <div className="flex flex-row items-center justify-center text-center w-full">
@@ -48,7 +48,7 @@ const Project = () => {
               <div className="mt-10 font-bebas justify-start text-left text-sm italic">Node.js | ReactJS | JavaScript | MongoDB | ExpressJS</div>
             </Link>
           </div>
-        <div className="p-2"></div>
+        <div className="p-2 absolute"></div>
         <SidePanel />
       </div>
     </div>
