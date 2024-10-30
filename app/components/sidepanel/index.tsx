@@ -11,6 +11,9 @@ const SidePanel = () => {
     const btn1 = document.getElementById("btns1");
     const btn2 = document.getElementById("btns2");
     const btn3 = document.getElementById("btns3");
+    if (btn1 == null || btn2 == null || btn3 == null || sidebarpanel == null || shrnkbtn == null) {
+      return
+    }
 
     if (btn1.style.display == "none") {
       btn1.style.display = "block";
