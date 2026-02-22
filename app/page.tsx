@@ -12,7 +12,7 @@ import {
   GalleryContent, ContactContent
 } from '@/components/WindowContents'
 
-type WinId = 'about' | 'skills' | 'experience' | 'projects' | 'education' | 'research' | 'gallery' | 'contact'
+type WinId = 'about' | 'skills' | 'experience' | 'projects' | 'education' | 'certification' | 'contact'
 
 interface WinConfig {
   id: WinId
@@ -29,7 +29,7 @@ const WINDOW_CONFIGS: WinConfig[] = [
   { id: 'experience', title: 'experience.log',       icon: '💼', defaultPos: { x: 130, y: 110 }, defaultSize: { w: 420, h: 460 }, content: <ExperienceContent /> },
   { id: 'projects',   title: 'projects/',            icon: '🚀', defaultPos: { x: 560, y: 80  }, defaultSize: { w: 440, h: 500 }, content: <ProjectsContent /> },
   { id: 'education',  title: 'qualifications.md',   icon: '🎓', defaultPos: { x: 160, y: 100 }, defaultSize: { w: 390, h: 420 }, content: <EducationContent /> },
-  { id: 'research',   title: 'publications.bib',    icon: '🔬', defaultPos: { x: 370, y: 85  }, defaultSize: { w: 460, h: 430 }, content: <ResearchContent /> },
+  { id: 'certification',   title: 'publications.bib',    icon: '🔬', defaultPos: { x: 370, y: 85  }, defaultSize: { w: 460, h: 430 }, content: <ResearchContent /> },
   // { id: 'gallery',    title: 'gallery/desert-trip', icon: '📸', defaultPos: { x: 220, y: 95  }, defaultSize: { w: 400, h: 420 }, content: <GalleryContent /> },
   { id: 'contact',    title: 'contact.cfg',         icon: '📬', defaultPos: { x: 280, y: 100 }, defaultSize: { w: 360, h: 380 }, content: <ContactContent /> },
 ]
@@ -169,8 +169,8 @@ export default function Desktop() {
     { id: 'experience', icon: '💼', label: 'Experience' },
     { id: 'projects',   icon: '🚀', label: 'Projects' },
     { id: 'education',  icon: '🎓', label: 'Education' },
-    { id: 'research',   icon: '🔬', label: 'Research' },
-    { id: 'gallery',    icon: '📸', label: 'Gallery' },
+    { id: 'research',   icon: '📜', label: 'Certification' },
+    // { id: 'gallery',    icon: '📸', label: 'Gallery' },
     { id: 'contact',    icon: '📬', label: 'Contact' },
   ]
 
