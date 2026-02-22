@@ -169,7 +169,7 @@ export default function Desktop() {
     { id: 'experience', icon: '💼', label: 'Experience' },
     { id: 'projects',   icon: '🚀', label: 'Projects' },
     { id: 'education',  icon: '🎓', label: 'Education' },
-    { id: 'research',   icon: '📜', label: 'Certification' },
+    { id: 'certification',   icon: '📜', label: 'Certification' },
     // { id: 'gallery',    icon: '📸', label: 'Gallery' },
     { id: 'contact',    icon: '📬', label: 'Contact' },
   ]
