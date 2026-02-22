@@ -30,11 +30,14 @@ Passionate about designing reliable, efficient, and responsible AI systems that 
 
 export function SkillsContent() {
   const groups = [
-    { title: 'Frontend', cls: 'st-orange', tags: ['React.js', 'Next.js', 'TypeScript', 'Tailwind', 'Three.js', 'Vue.js'] },
-    { title: 'Backend & DB', cls: 'st-blue', tags: ['Node.js', 'Python', 'Django', 'FastAPI', 'PostgreSQL', 'MongoDB', 'Redis'] },
-    { title: 'AI / ML', cls: 'st-green', tags: ['TensorFlow', 'PyTorch', 'Scikit-learn', 'NLP', 'Computer Vision', 'LLMs'] },
-    { title: 'Cloud & DevOps', cls: 'st-purple', tags: ['AWS', 'Docker', 'Kubernetes', 'CI/CD', 'Git', 'Linux'] },
-    { title: 'Design & Tools', cls: 'st-pink', tags: ['Figma', 'UI/UX', 'Adobe XD', 'MATLAB', 'LaTeX', 'Jupyter'] },
+    { title: 'Programming Languages/ Backend', cls: 'st-blue', tags: ['Python', 'SQL', 'Node.js', 'FastAPI', 'Bash', 'CUDA'] }, 
+    { title: 'GenAI & LLMs', cls: 'st-blue', tags: ['RAG', 'QLoRA', 'DPO', 'Transformers', 'GANs', 'Prompt Engineering'] }, 
+    { title: 'AI / ML Frameworks', cls: 'st-green', tags: ['Langchain','TensorFlow', 'PyTorch', 'Scikit-learn', 'NLP', 'Computer Vision', 'LLMs', 'Transformers', 'Pydentic'] },
+    { title: 'Cloud AI', cls: 'st-green', tags: ['AWS SageMaker', 'Bedrock', 'GCP Vertex AI', 'OpenAI API'] },
+    { title: 'Frontend', cls: 'st-orange', tags: ['React.js', 'Next.js', 'TypeScript', 'Tailwind'] },
+    { title: 'Cloud & MLOps', cls: 'st-orange', tags: ['AWS', 'Airflow', 'MLflow', 'GitHub Actions', 'Jenkins', 'Prometheus'] },
+    { title: 'DevOps', cls: 'st-purple', tags: ['Docker', 'Kubernetes', 'CI/CD', 'Git', 'Linux'] },
+    { title: 'Databases', cls: 'st-pink', tags: ['PostgreSQL + pgvector', 'FAISS', 'Pinecone', 'Redis', 'ChromaDB', 'MongoDB'] },
   ]
   return (
     <>
@@ -53,10 +56,8 @@ export function SkillsContent() {
 
 export function ExperienceContent() {
   const items = [
-    { period: '2023 — Present', role: 'Senior Software Engineer', company: 'Tech Innovations Pvt. Ltd. · Ahmedabad', desc: 'Leading frontend architecture for enterprise SaaS. Migrated to React/Next.js stack, reducing load times 60%. Mentoring 5 junior devs.' },
-    { period: '2021 — 2023', role: 'Full-Stack Developer', company: 'Digital Solutions Hub · Remote', desc: 'Built scalable web apps for fintech & e-commerce. Developed RESTful APIs. Delivered 12+ projects on time.' },
-    { period: '2020 — 2021', role: 'ML Engineer (Intern)', company: 'AI Research Lab, DAIICT · Gandhinagar', desc: 'Deep learning models for image classification & NLP. Contributed to published research on healthcare CV. Processed 500K+ samples.' },
-    { period: '2019 — 2020', role: 'Web Developer', company: 'Freelance · Gujarat', desc: 'Designed & developed custom websites for 20+ local businesses and startups.' },
+    { period: 'Jun 2022 — Present', role: 'AI Engineer', company: 'Tata Consultancy Services · Gandhinagar', desc: 'At Tata Consultancy Services, I design and deploy enterprise-grade Generative AI solutions, focusing on retrieval-augmented generation, LLM fine-tuning, and intelligent agent workflows. I work across the full lifecycle—from model optimization and evaluation to cloud deployment and production monitoring—ensuring scalable, reliable, and responsible AI systems for real-world applications.' },
+    { period: 'Dec 2021 — Apr 2022', role: 'Full Stack MERN Developer', company: 'Bodh Labs PVT LTD · Remote', desc: 'At Bodh Labs Pvt. Ltd., I worked on backend development and system engineering, building scalable web applications and APIs to support production-grade platforms. I focused on optimizing performance, ensuring code quality, and collaborating across teams to deliver reliable and maintainable software solutions.' }
   ]
   return (
     <>
@@ -75,11 +76,11 @@ export function ExperienceContent() {
 
 export function ProjectsContent() {
   const projects = [
-    { num: '01 — Featured', title: 'Desert Mapping Intelligence Platform', desc: 'AI-powered geospatial platform for mapping arid landscapes using satellite imagery & deep learning. 10TB+ data processed.', stack: [['st-green','Python'],['st-green','TensorFlow'],['st-orange','React'],['st-purple','AWS'],['st-blue','PostgreSQL']] },
-    { num: '02', title: 'MediScan — Healthcare AI', desc: 'Computer vision system for early disease detection. 94.3% accuracy on benchmark datasets using custom CNN architecture.', stack: [['st-green','PyTorch'],['st-blue','FastAPI'],['st-orange','Next.js'],['st-purple','Docker']] },
-    { num: '03', title: 'RealEstate Analytics Dashboard', desc: 'Full-stack data viz platform with real-time processing & predictive pricing models. 1000+ daily active users.', stack: [['st-orange','React'],['st-blue','Node.js'],['st-orange','D3.js'],['st-blue','MongoDB']] },
-    { num: '04', title: 'NLP Chatbot Platform', desc: 'Enterprise conversational AI with multi-language support & custom knowledge base on transformer architecture.', stack: [['st-green','Transformers'],['st-blue','Python'],['st-orange','Vue.js'],['st-purple','Redis']] },
-    { num: '05', title: 'Smart Logistics Tracker', desc: 'Real-time supply chain visibility with IoT integration & route optimization. Predictive delivery time estimation.', stack: [['st-blue','Node.js'],['st-purple','IoT'],['st-orange','React Native'],['st-purple','AWS']] },
+    { num: '01 — Featured', title: 'Government Query Processing AI Agent', desc: 'Designed a multi-agent AI system to automate municipal approval workflows using retrieval-augmented generation and intelligent routing. Improved decision efficiency by integrating contextual retrieval, document summarization, and metadata-aware search.', stack: [['st-green','Python'],['st-green','LangChain'],['st-orange','Mistral'],['st-purple','AWS'],['st-blue','PostgreSQL + pgvector']] },
+    { num: '02', title: 'Jira QA Assistant with RAG', desc: 'Built a retrieval-augmented QA assistant to streamline test-case generation and documentation workflows. Reduced hallucinations through constrained prompting and validation pipelines, enabling reliable AI-assisted quality assurance.', stack: [['st-green','Python'],['st-blue','LangChain'],['st-orange','GPT-4'],['st-purple','Docker'], ['st-blue','FAISS']] },
+    { num: '03', title: 'LLM Fine-Tuning Framework', desc: 'Developed a modular fine-tuning pipeline for open-source large language models using parameter-efficient techniques. Focused on optimization, cost-efficient deployment, and scalable inference for production-grade AI systems.', stack: [['st-orange','Python'],['st-blue','AWS Inferencia'], ['st-blue','AWS Sagemaker Studio'], ['st-orange','LAMMA'], ['st-orange','Mistral'], ['st-blue','QLoRA'], ['st-blue','DPO']] },
+    { num: '04', title: 'Next.js E-Commerce Store', desc: 'Developed and launched a high-performance e-commerce platform using Next.js with server-side rendering and optimized caching strategies to enhance performance and scalability. Implemented secure authentication, Redux-based cart management, and Razorpay payment integration to ensure seamless checkout and order management. Designed user-focused features including order history, product reviews, and real-time traffic insights to improve engagement.', stack: [['st-green','JavaScript'], ['st-green','Next.js'], ['st-blue','TypeScript'], ['st-blue','Redux'], ['st-orange','Node.js'], ['st-purple','Razorpay'], ['st-purple','MongoDB'], ['st-purple','AWS']] },
+    { num: '05', title: 'UnionBoard – The College Guide Platform', desc: 'Built a dynamic college admission and guidance platform integrating comprehensive data for engineering institutes. Designed a scalable backend architecture using Node.js and Express, improving API reliability and database performance through structured validation and Python-based data processing. Implemented advanced features such as college comparison, recommendation systems, and rank-based eligibility tools to enhance user decision-making.', stack: [['st-green','JavaScript'],['st-blue','Node.js'],['st-blue','Express.js'],['st-purple','Python'],['st-orange','React.js'],['st-purple','MongoDB']] }
   ]
   return (
     <>
@@ -100,10 +101,9 @@ export function ProjectsContent() {
 
 export function EducationContent() {
   const items = [
-    { year: '2019 — 2021', deg: 'M.Tech. in ICT', inst: 'DAIICT — Dhirubhai Ambani Institute of ICT', note: 'Specialization: ML & AI · Thesis: Deep Learning for Environmental Monitoring · CGPA: 8.7/10' },
-    { year: '2015 — 2019', deg: 'B.E. in Computer Engineering', inst: 'Gujarat Technological University', note: 'Top 5% of department · CGPA: 8.2/10 · Strong foundation in algorithms & software engineering' },
-    { year: '2024', deg: 'AWS Certified Solutions Architect', inst: 'Amazon Web Services — Professional Level', note: 'Cloud architecture, scalability, high availability, cost optimization strategies' },
-    { year: '2023', deg: 'Deep Learning Specialization', inst: 'Coursera · deeplearning.ai', note: '5-course series: Neural networks, CNNs, sequence models, practical DL systems' },
+    { year: '2018 — 2022', deg: 'B. Tech. in Information Technology', inst: 'BVM Engineering College, Anand, Gujarat', note: 'CGPA: 8.48/10 · Top 10% of department · Strong foundation in algorithms & software engineering' },
+    { year: '2017 — 2018', deg: 'HSE - GSHSEB (Class XII)', inst: 'JB & KARP Vidya Sankul, India', note: 'Aggregate: 85.26%' },
+    { year: '2015 — 2016', deg: 'SSC - GSEB (Class X)', inst: 'JB & KARP Vidya Sankul, India', note: 'Aggregate: 90%' }
   ]
   return (
     <>
@@ -122,15 +122,13 @@ export function EducationContent() {
 
 export function ResearchContent() {
   const items = [
-    { num: '01', title: 'Deep Learning for Arid Land Classification Using Multi-Spectral Satellite Imagery', meta: 'IEEE Trans. Geoscience & Remote Sensing, 2023', badge: 'badge-pub', label: 'Published' },
-    { num: '02', title: 'Transfer Learning for Medical Image Segmentation in Low-Resource Settings', meta: 'Journal of Biomedical Informatics, 2022 · DAIICT AI Lab', badge: 'badge-pub', label: 'Published' },
-    { num: '03', title: 'Scalable NLP Architectures for Low-Resource Indian Languages', meta: 'ICON 2022 — International Conference on NLP', badge: 'badge-conf', label: 'Conference' },
-    { num: '04', title: 'Federated Learning for Privacy-Preserving Healthcare Analytics', meta: 'In progress · Expected Q2 2025 · 3 institutions', badge: 'badge-wip', label: 'Ongoing' },
-    { num: '05', title: 'Real-Time Anomaly Detection in IoT Networks Using Lightweight LSTM', meta: 'ACM IoT Symposium, 2021', badge: 'badge-conf', label: 'Conference' },
+    { num: '01', title: 'AWS Certified AI Practitioner', meta: 'AWS, 2024 - 2027', badge: 'badge-pub', label: 'Acquired' },
+    { num: '02', title: 'AWS Certified Cloud Practitioner', meta: 'AWS, 2024 - 2027', badge: 'badge-pub', label: 'Acquired' },
+    { num: '03', title: 'Hands-on Approach to AI for Real World Applications', meta: 'IIT Kharagpur AI4ICPS, 2024', badge: 'badge-pub', label: 'Acquired' },
   ]
   return (
     <>
-      <div className="win-tag">// Research & Publications</div>
+      <div className="win-tag">// Research & Certifications</div>
       {items.map(i => (
         <div className="res-item" key={i.num}>
           <div className="res-num">{i.num}</div>
@@ -175,11 +173,11 @@ export function GalleryContent() {
 
 export function ContactContent() {
   const items = [
-    { icon: '📧', label: 'Email', val: 'hello@portfolio.dev' },
-    { icon: '💼', label: 'LinkedIn', val: 'linkedin.com/in/yourprofile' },
-    { icon: '🐙', label: 'GitHub', val: 'github.com/yourhandle' },
-    { icon: '🎓', label: 'Google Scholar', val: 'scholar.google.com' },
-    { icon: '📍', label: 'Location', val: 'Gandhinagar, Gujarat, India' },
+    { icon: '📧', label: 'Email', val: 'ghelanismit4@gmail.com' },
+    { icon: '💼', label: 'LinkedIn', val: 'https://www.linkedin.com/in/smitghelani/' },
+    { icon: '🐙', label: 'GitHub', val: 'https://github.com/SmitGhelani' },
+    { icon: '📍', label: 'Location', val: 'Surat, Gujarat, India' },
+    { icon: '📞', label: 'Contact No.', val: '+91 - 6355286783' },
   ]
   return (
     <>
