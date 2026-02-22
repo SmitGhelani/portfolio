@@ -5,26 +5,25 @@ export function AboutContent() {
     <>
       <div className="win-tag">// Profile</div>
       <div className="profile-header">
-        <Image src="/IMG_8687.jpg" alt="Profile" width={80} height={80} className="profile-photo" style={{ objectPosition: 'center top' }} />
+        <Image src="/Profile.png" alt="Profile" width={80} height={80} className="profile-photo" style={{ objectPosition: 'center top' }} />
         <div>
-          <div className="profile-name">Desert<br />Explorer</div>
-          <div className="profile-role">Full-Stack Dev · ML Engineer</div>
+          <div className="profile-name">Smit<br />Ghelani</div>
+          <div className="profile-role">Generative AI Dev · DevOps Engineer</div>
         </div>
       </div>
       <p className="profile-bio" style={{ marginBottom: 14 }}>
-        Passionate developer &amp; researcher from Gandhinagar, Gujarat. I build elegant digital
-        experiences at the intersection of technology, design, and human curiosity. From Thar
-        desert dunes to digital frontiers.
+        Experienced in deploying scalable AI applications on cloud platforms with strong foundations in MLOps, model optimization, and real-world AI integration.
+Passionate about designing reliable, efficient, and responsible AI systems that solve complex business problems at scale.
       </p>
       <div className="info-grid">
-        <div className="info-card"><div className="info-label">Location</div><div className="info-val">Gandhinagar, GJ</div></div>
+        <div className="info-card"><div className="info-label">Location</div><div className="info-val">Surat, Gujarat, India</div></div>
         <div className="info-card"><div className="info-label">Status</div><div className="info-val">Open to Work ✓</div></div>
-        <div className="info-card"><div className="info-label">Specialty</div><div className="info-val">Full-Stack &amp; AI</div></div>
-        <div className="info-card"><div className="info-label">Experience</div><div className="info-val">5+ Years</div></div>
-        <div className="info-card"><div className="info-label">Languages</div><div className="info-val">Hindi · Gujarati · EN</div></div>
-        <div className="info-card"><div className="info-label">Projects Done</div><div className="info-val">30+ Delivered</div></div>
+        <div className="info-card"><div className="info-label">Specialty</div><div className="info-val">GenAI &amp; DevOps</div></div>
+        <div className="info-card"><div className="info-label">Experience</div><div className="info-val">3+ Years</div></div>
+        <div className="info-card"><div className="info-label">Languages</div><div className="info-val">English · Gujarati · Hindi</div></div>
+        <div className="info-card"><div className="info-label">Projects Done</div><div className="info-val">5+ Delivered</div></div>
       </div>
-      <Image src="/IMG_2226.jpg" alt="With team" width={400} height={240} className="about-full-img" />
+      {/* <Image src="/IMG_2226.jpg" alt="With team" width={400} height={240} className="about-full-img" /> */}
     </>
   )
 }
