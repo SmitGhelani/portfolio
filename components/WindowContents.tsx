@@ -124,7 +124,7 @@ export function ResearchContent() {
   const items = [
     { num: '01', title: 'AWS Certified AI Practitioner', meta: 'AWS, 2024 - 2027', badge: 'badge-pub', label: 'Acquired' },
     { num: '02', title: 'AWS Certified Cloud Practitioner', meta: 'AWS, 2024 - 2027', badge: 'badge-pub', label: 'Acquired' },
-    { num: '03', title: 'Hands-on Approach to AI for Real World Applications', meta: 'IIT Kharagpur AI4ICPS, 2024', badge: 'badge-pub', label: 'Acquired' },
+    { num: '03', title: 'Hands-on Approach to AI for Real World Applications', meta: 'IIT Kharagpur AI4ICPS, 2024', badge: 'badge-pub', label: 'Acquired' }
   ]
   return (
     <>
@@ -177,7 +177,7 @@ export function ContactContent() {
     { icon: '💼', label: 'LinkedIn', val: 'https://www.linkedin.com/in/smitghelani/' },
     { icon: '🐙', label: 'GitHub', val: 'https://github.com/SmitGhelani' },
     { icon: '📍', label: 'Location', val: 'Surat, Gujarat, India' },
-    { icon: '📞', label: 'Contact No.', val: '+91 - 6355286783' },
+    { icon: '📞', label: 'Contact No.', val: '+91 - 6355286783' }
   ]
   return (
     <>
